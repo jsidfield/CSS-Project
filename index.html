@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Websites By Jordan Sidfield</title>
+  <link rel="stylesheet" href="css/jordanstyle.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+</head>
+
+<body>
+
+  <script>
+  LottieInteractivity.create({
+      mode:"scroll",
+      player:'#scrollinglottie',
+      actions: [
+          {
+              visibility:[0,1],
+              type: "seek",
+              frames: [0, 100],
+          },
+      ]
+  });
+  </script>
+  <div class="Top-Container">
+    <img class="top-cloud" src="/Users/jordansidfield/Documents/Web Dev Bootcamp/Web Development/CSS - My Site/CSS - My Site Images/cloud.png" alt="cloud-img">
+    <h1>HI! I'm Jordan!</h1>
+    <h2>Welcome to my web developer page!</h2>
+    <img class="bottom-cloud" src="/Users/jordansidfield/Documents/Web Dev Bootcamp/Web Development/CSS - My Site/CSS - My Site Images/cloud.png" alt="cloud-img">
+    <img src="/Users/jordansidfield/Documents/Web Dev Bootcamp/Web Development/CSS - My Site/CSS - My Site Images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-picture" src="http://www.jordansidfield.com/uploads/1/6/1/8/16186140/img-0157smirkbusiness_orig.jpg" alt="Profile Pic" style="height: 30%; width: 30%;">
+      <h2>Hello!</h2>
+      <p>I'm a budding web developer and designer with a passion for the arts and entertainment.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <lottie-player class="WebDev-Icon" src="https://assets3.lottiefiles.com/packages/lf20_dRTIsg.json"  background="transparent"  speed="1.5"  style="width: 50%; height: 50%;"  loop  autoplay></lottie-player>
+        <h3>Web Development</h3>
+        <p>Beginner level skills in HTML, CSS, and JavaScript. Learning more skills each day. 🙂 </p>
+      </div>
+      <div class="skill-row">
+        <lottie-player class="Drama-Masks" id="scrollinglottie" src="https://assets8.lottiefiles.com/packages/lf20_YHvtdL.json" style="width:50%; height: 50%;" speed="1" background="transparent" loop autoplay></lottie-player>
+
+        <h3>Arts and Entertainment</h3>
+
+        <p>Professional performing artist, director, and producer with superior skills in music, dance, and theatre.</p>
+      </div>
+      <div class="projects">
+        <h2>My Projects</h2>
+        <div class="project-spacer">
+
+        </div>
+<a href="http://www.auditionsource.org" style="text-decoration: none;"><img class="auditionlogo" src="/Users/jordansidfield/Documents/Web Dev Bootcamp/Web Development/CSS - My Site/CSS - My Site Images/bluemusicbinder.png" height="15%" width="15%" />
+        <h3 class="auditionlink" >Audition Source</h3></a>
+        <p>
+          An interactive online database and resource center for the auditioning actor.
+        </p>
+
+
+
+      </div>
+    </div>
+
+
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <p>Do you like broadway showtunes, or virtual reality, or both? Shoot me a message!</p>
+      <a class="btn" href="mailto:jsidfield@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jordan-sidfield">LinkedIn
+      <lottie-player class="linkedin-icon" src="https://assets5.lottiefiles.com/packages/lf20_fdhI9S.json" background="transparent" speed="1" style="width: 25px; height: 25px;" hover loop viewBox="0 0 25 25"  />
+    </a>
+
+<div>
+    <a class="twitter-link" href="https://twitter.com/Mrbojangles01">Twitter
+    <lottie-player class="twitter-bird" src="https://assets3.lottiefiles.com/packages/lf20_0FyMSp.json"  background="transparent"  speed="1"  style="width: 25px; height: 25px;" hover loop viewBox="0 0 25 25"  />
+    </a>
+</div>
+
+    <div class="websitebtn">
+      <a class="website-link" href="http://www.jordansidfield.com/">Website
+        <lottie-player class="globe1" src="https://assets9.lottiefiles.com/packages/lf20_q6fN9c.json"  background="transparent"  speed="6"  style="width: 22px; height: 22px;" hover loop viewBox= "0 0 24 24" />
+
+      </a>
+    </div>
+    <p>© 2020 Jordan Sidfield</p>
+  </div>
+
+</body>
+
+</html>
